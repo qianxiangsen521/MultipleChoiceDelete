@@ -3,4 +3,35 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="primary">#333244</color>
+    <color name="accent">#eeff41</color>
+    <color name="accentLight">#F4FF81</color>
+    <color name="cnr_main_color">#bf2e35</color>
+    <color name="toolbar_bg_red">@color/cnr_main_color</color>
+    <color name="cnr_white">#FFFFFF</color>
+    <color name="bg">#F0F0F0</color>
+    <color name="txt_color">#48495F</color>
+    <color name="spinner_bg">#333244</color>
+    <color name="translucent">#00000000</color>
+    <!--<color name="cnr_transparent_top">@mipmap/player_bar_top</color>-->
+    <!--<color name="cnr_transparent_bottom">@mipmap/player_bar_bottom</color>-->
+    <color name="cnr_black">#000000</color>
+    <color name="cnr_green">#019f9b</color>
+    <color name="cnr_white99">#F4F4F4</color>
+    <color name="cnr_tvname_text">#656565</color>
+    <color name="cnr_tvname_text_cover">#65656565</color>
+    <color name="cnr_channel_press">#e05b49</color>
+    <color name="cnr_loading_text">#d2d2d2</color>
+    <color name="minefra_text_grey">#dedede</color>
+    <!-- 橘黄色 -->
+    <!-- 黑色 -->
+    <color name="black">#ff000000</color>
+
+    <!-- MainPage color -->
+    <color name="recomm_divider_color_gray">#d9d9d9</color>
+    <color name="home_bottom_tab_focus">#e75c55</color>
+    <color name="tab_checked">#bf2e35</color>
+    <color name="tab_unchecked">#757575</color>
+    <color name="theme_primary">#2196F3</color>
 </resources>

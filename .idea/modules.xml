@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MultipleChoiceDelete.iml" filepath="$PROJECT_DIR$/MultipleChoiceDelete.iml" />
       <module fileurl="file://$PROJECT_DIR$/SelectAndDelete.iml" filepath="$PROJECT_DIR$/SelectAndDelete.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

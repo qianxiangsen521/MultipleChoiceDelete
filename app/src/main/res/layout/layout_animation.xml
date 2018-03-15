@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="@color/cnr_white"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <com.example.selectanddelete.view.SlideRelativeLayout
+        android:id="@+id/item_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+    <FrameLayout
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+
+        >
+        <CheckBox
+            android:id="@+id/item_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:button="@drawable/selector_checkbox"
+            android:clickable="true"
+            android:visibility="gone"
+            android:enabled="true"
+            android:focusable="true" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_content_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/tweetName"
+            android:paddingLeft="@dimen/dp_10"
+            style="@style/tweetName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chad"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dp_10"
+            android:layout_below="@+id/tweetName">
+        <TextView
+            android:id="@+id/tweetText"
+            android:paddingLeft="@dimen/dp_10"
+            style="@style/tweetText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello world!"
+            android:textColor="@android:color/darker_gray"
+            android:paddingRight="@dimen/dp_10"
+            />
+        <TextView
+            android:id="@+id/online"
+            android:paddingLeft="@dimen/dp_10"
+            style="@style/tweetText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello world!"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/darker_gray"
+            android:paddingRight="@dimen/dp_10"
+            />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tweetDate"
+            style="@style/tweetDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04/06/13"
+            android:paddingRight="@dimen/dp_10"
+            android:layout_alignBaseline="@+id/tweetName"
+            android:layout_alignBottom="@+id/tweetName"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+    </com.example.selectanddelete.view.SlideRelativeLayout>
+</android.support.v7.widget.CardView>
