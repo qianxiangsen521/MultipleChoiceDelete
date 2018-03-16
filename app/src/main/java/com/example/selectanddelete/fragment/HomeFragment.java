@@ -107,8 +107,132 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
 
     private int totalCounter = 0;
 
-    String json = "{\"resultCode\":1,\"resultMsg\":\"\\u8bfb\\u53d6\\u6210\\u529f\",\"ResultTotal\":\"121\",\"resultList\":[{\"media_id\":\"176411\",\"title\":\"3456789674688677943\",\"vtype\":\"0\",\"duration\":\"4\",\"make_user_id\":\"\\u4f55\\u4e3d\\u7434\",\"cp\":\"\\u592e\\u5e7f\\u89c6\\u8baf\",\"seq_id\":20180109184071,\"check_status\":\"0\",\"check_user_id\":\"\",\"check_memo\":\"\",\"down_status\":\"3\"},{\"media_id\":\"176411\",\"title\":\"3456789674688677943\",\"vtype\":\"0\",\"duration\":\"4\",\"make_user_id\":\"\\u4f55\\u4e3d\\u7434\",\"cp\":\"\\u592e\\u5e7f\\u89c6\\u8baf\",\"seq_id\":20180109184071,\"check_status\":\"0\",\"check_user_id\":\"\",\"check_memo\":\"\",\"down_status\":\"3\"},{\"media_id\":\"175876\",\"title\":\"\\u4f01\\u4e1a\\u89c6\\u9891674688841363\",\"vtype\":\"0\",\"duration\":\"93\",\"make_user_id\":\"\\u4f55\\u4e3d\\u7434\",\"cp\":\"\\u592e\\u5e7f\\u89c6\\u8baf\",\"seq_id\":20180105183508,\"check_status\":\"0\",\"check_user_id\":\"\",\"check_memo\":\"\",\"down_status\":\"3\"},{\"media_id\":\"175876\",\"title\":\"\\u4f01\\u4e1a\\u89c6\\u9891674688841363\",\"vtype\":\"0\",\"duration\":\"93\",\"make_user_id\":\"\\u4f55\\u4e3d\\u7434\",\"cp\":\"\\u592e\\u5e7f\\u89c6\\u8baf\",\"seq_id\":20180105183508,\"check_status\":\"0\",\"check_user_id\":\"\",\"check_memo\":\"\",\"down_status\":\"3\"},{\"media_id\":\"175492\",\"title\":\"\\u5927\\u8fde\\u7406\\u5de5\\u5927\\u5b66\\u8239\\u8236\\u7814\\u53d1\\u90e8674688173875\",\"vtype\":\"0\",\"duration\":\"15\",\"make_user_id\":\"\\u4f55\\u4e3d\\u7434\",\"cp\":\"\\u592e\\u5e7f\\u89c6\\u8baf\",\"seq_id\":20180103183119,\"check_status\":\"0\",\"check_user_id\":\"\",\"check_memo\":\"\",\"down_status\":\"3\"},{\"media_id\":\"175492\",\"title\":\"\\u5927\\u8fde\\u7406\\u5de5\\u5927\\u5b66\\u8239\\u8236\\u7814\\u53d1\\u90e8674688173875\",\"vtype\":\"0\",\"duration\":\"15\",\"make_user_id\":\"\\u4f55\\u4e3d\\u7434\",\"cp\":\"\\u592e\\u5e7f\\u89c6\\u8baf\",\"seq_id\":20180103183119,\"check_status\":\"0\",\"check_user_id\":\"\",\"check_memo\":\"\",\"down_status\":\"3\"},{\"media_id\":\"175491\",\"title\":\"\\u54c8\\u5c14\\u6ee8\\u5de5\\u4e1a\\u5927\\u5b66\\u822a\\u5929\\u7814\\u53d1\\u4e2d\\u5fc3674688613575\",\"vtype\":\"0\",\"duration\":\"15\",\"make_user_id\":\"\\u4f55\\u4e3d\\u7434\",\"cp\":\"\\u592e\\u5e7f\\u89c6\\u8baf\",\"seq_id\":20180103183118,\"check_status\":\"0\",\"check_user_id\":\"\",\"check_memo\":\"\",\"down_status\":\"3\"},{\"media_id\":\"175491\",\"title\":\"\\u54c8\\u5c14\\u6ee8\\u5de5\\u4e1a\\u5927\\u5b66\\u822a\\u5929\\u7814\\u53d1\\u4e2d\\u5fc3674688613575\",\"vtype\":\"0\",\"duration\":\"15\",\"make_user_id\":\"\\u4f55\\u4e3d\\u7434\",\"cp\":\"\\u592e\\u5e7f\\u89c6\\u8baf\",\"seq_id\":20180103183118,\"check_status\":\"0\",\"check_user_id\":\"\",\"check_memo\":\"\",\"down_status\":\"3\"},{\"media_id\":\"175490\",\"title\":\"\\u4f01\\u4e1a\\u89c6\\u9891\\u56fe\\u7247hhhh674688902240\",\"vtype\":\"0\",\"duration\":\"93\",\"make_user_id\":\"\\u4f55\\u4e3d\\u7434\",\"cp\":\"\\u592e\\u5e7f\\u89c6\\u8baf\",\"seq_id\":20180103183117,\"check_status\":\"0\",\"check_user_id\":\"\",\"check_memo\":\"\",\"down_status\":\"3\"},{\"media_id\":\"175490\",\"title\":\"\\u4f01\\u4e1a\\u89c6\\u9891\\u56fe\\u7247hhhh674688902240\",\"vtype\":\"0\",\"duration\":\"93\",\"make_user_id\":\"\\u4f55\\u4e3d\\u7434\",\"cp\":\"\\u592e\\u5e7f\\u89c6\\u8baf\",\"seq_id\":20180103183117,\"check_status\":\"0\",\"check_user_id\":\"\",\"check_memo\":\"\",\"down_status\":\"3\"}]}\n";
-
+    String json = "{\n" +
+            "\t\"resultCode\": 1,\n" +
+            "\t\"resultMsg\": \"读取成功\",\n" +
+            "\t\"ResultTotal\": \"121\",\n" +
+            "\t\"resultList\": [{\n" +
+            "\t\t\"media_id\": \"176411\",\n" +
+            "\t\t\"title\": \"3456789674688677943\",\n" +
+            "\t\t\"vtype\": \"0\",\n" +
+            "\t\t\"duration\": \"4\",\n" +
+            "\t\t\"make_user_id\": \"小明\",\n" +
+            "\t\t\"cp\": \"开发\",\n" +
+            "\t\t\"seq_id\": 20180109184071,\n" +
+            "\t\t\"check_status\": \"0\",\n" +
+            "\t\t\"check_user_id\": \"\",\n" +
+            "\t\t\"check_memo\": \"\",\n" +
+            "\t\t\"down_status\": \"3\"\n" +
+            "\t}, {\n" +
+            "\t\t\"media_id\": \"176411\",\n" +
+            "\t\t\"title\": \"3456789674688677943\",\n" +
+            "\t\t\"vtype\": \"0\",\n" +
+            "\t\t\"duration\": \"4\",\n" +
+            "\t\t\"make_user_id\": \"小明\",\n" +
+            "\t\t\"cp\": \"开发\",\n" +
+            "\t\t\"seq_id\": 20180109184071,\n" +
+            "\t\t\"check_status\": \"0\",\n" +
+            "\t\t\"check_user_id\": \"\",\n" +
+            "\t\t\"check_memo\": \"\",\n" +
+            "\t\t\"down_status\": \"3\"\n" +
+            "\t}, {\n" +
+            "\t\t\"media_id\": \"175876\",\n" +
+            "\t\t\"title\": \"企业视频674688841363\",\n" +
+            "\t\t\"vtype\": \"0\",\n" +
+            "\t\t\"duration\": \"93\",\n" +
+            "\t\t\"make_user_id\": \"小明\",\n" +
+            "\t\t\"cp\": \"开发\",\n" +
+            "\t\t\"seq_id\": 20180105183508,\n" +
+            "\t\t\"check_status\": \"0\",\n" +
+            "\t\t\"check_user_id\": \"\",\n" +
+            "\t\t\"check_memo\": \"\",\n" +
+            "\t\t\"down_status\": \"3\"\n" +
+            "\t}, {\n" +
+            "\t\t\"media_id\": \"175876\",\n" +
+            "\t\t\"title\": \"企业视频674688841363\",\n" +
+            "\t\t\"vtype\": \"0\",\n" +
+            "\t\t\"duration\": \"93\",\n" +
+            "\t\t\"make_user_id\": \"小明\",\n" +
+            "\t\t\"cp\": \"开发\",\n" +
+            "\t\t\"seq_id\": 20180105183508,\n" +
+            "\t\t\"check_status\": \"0\",\n" +
+            "\t\t\"check_user_id\": \"\",\n" +
+            "\t\t\"check_memo\": \"\",\n" +
+            "\t\t\"down_status\": \"3\"\n" +
+            "\t}, {\n" +
+            "\t\t\"media_id\": \"175492\",\n" +
+            "\t\t\"title\": \"大连理工大学船舶研发部674688173875\",\n" +
+            "\t\t\"vtype\": \"0\",\n" +
+            "\t\t\"duration\": \"15\",\n" +
+            "\t\t\"make_user_id\": \"小明\",\n" +
+            "\t\t\"cp\": \"开发\",\n" +
+            "\t\t\"seq_id\": 20180103183119,\n" +
+            "\t\t\"check_status\": \"0\",\n" +
+            "\t\t\"check_user_id\": \"\",\n" +
+            "\t\t\"check_memo\": \"\",\n" +
+            "\t\t\"down_status\": \"3\"\n" +
+            "\t}, {\n" +
+            "\t\t\"media_id\": \"175492\",\n" +
+            "\t\t\"title\": \"大连理工大学船舶研发部674688173875\",\n" +
+            "\t\t\"vtype\": \"0\",\n" +
+            "\t\t\"duration\": \"15\",\n" +
+            "\t\t\"make_user_id\": \"小明\",\n" +
+            "\t\t\"cp\": \"开发\",\n" +
+            "\t\t\"seq_id\": 20180103183119,\n" +
+            "\t\t\"check_status\": \"0\",\n" +
+            "\t\t\"check_user_id\": \"\",\n" +
+            "\t\t\"check_memo\": \"\",\n" +
+            "\t\t\"down_status\": \"3\"\n" +
+            "\t}, {\n" +
+            "\t\t\"media_id\": \"175491\",\n" +
+            "\t\t\"title\": \"哈尔滨工业大学航天研发中心674688613575\",\n" +
+            "\t\t\"vtype\": \"0\",\n" +
+            "\t\t\"duration\": \"15\",\n" +
+            "\t\t\"make_user_id\": \"小明\",\n" +
+            "\t\t\"cp\": \"开发\",\n" +
+            "\t\t\"seq_id\": 20180103183118,\n" +
+            "\t\t\"check_status\": \"0\",\n" +
+            "\t\t\"check_user_id\": \"\",\n" +
+            "\t\t\"check_memo\": \"\",\n" +
+            "\t\t\"down_status\": \"3\"\n" +
+            "\t}, {\n" +
+            "\t\t\"media_id\": \"175491\",\n" +
+            "\t\t\"title\": \"哈尔滨工业大学航天研发中心674688613575\",\n" +
+            "\t\t\"vtype\": \"0\",\n" +
+            "\t\t\"duration\": \"15\",\n" +
+            "\t\t\"make_user_id\": \"小明\",\n" +
+            "\t\t\"cp\": \"开发\",\n" +
+            "\t\t\"seq_id\": 20180103183118,\n" +
+            "\t\t\"check_status\": \"0\",\n" +
+            "\t\t\"check_user_id\": \"\",\n" +
+            "\t\t\"check_memo\": \"\",\n" +
+            "\t\t\"down_status\": \"3\"\n" +
+            "\t}, {\n" +
+            "\t\t\"media_id\": \"175490\",\n" +
+            "\t\t\"title\": \"企业视频图片hhhh674688902240\",\n" +
+            "\t\t\"vtype\": \"0\",\n" +
+            "\t\t\"duration\": \"93\",\n" +
+            "\t\t\"make_user_id\": \"小明\",\n" +
+            "\t\t\"cp\": \"开发\",\n" +
+            "\t\t\"seq_id\": 20180103183117,\n" +
+            "\t\t\"check_status\": \"0\",\n" +
+            "\t\t\"check_user_id\": \"\",\n" +
+            "\t\t\"check_memo\": \"\",\n" +
+            "\t\t\"down_status\": \"3\"\n" +
+            "\t}, {\n" +
+            "\t\t\"media_id\": \"175490\",\n" +
+            "\t\t\"title\": \"企业视频图片hhhh674688902240\",\n" +
+            "\t\t\"vtype\": \"0\",\n" +
+            "\t\t\"duration\": \"93\",\n" +
+            "\t\t\"make_user_id\": \"小明\",\n" +
+            "\t\t\"cp\": \"开发\",\n" +
+            "\t\t\"seq_id\": 20180103183117,\n" +
+            "\t\t\"check_status\": \"0\",\n" +
+            "\t\t\"check_user_id\": \"\",\n" +
+            "\t\t\"check_memo\": \"\",\n" +
+            "\t\t\"down_status\": \"3\"\n" +
+            "\t}]\n" +
+            "}";
 
     public static HomeFragment newInstance(int position) {
         HomeFragment f = new HomeFragment();
@@ -268,7 +392,6 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        Log.d("TAG", "onActivityResult: "+requestCode+""+"requestCode"+"resultCode"+resultCode);
         switch (resultCode) {
 
             case TLiveConfig.ACTION_NAME:
@@ -288,7 +411,6 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
 
 
     public void onNext(BaseResponse baseResponse) {
-
         if (baseResponse instanceof SimpleResponse){
             Gson gson = new Gson();
             SimpleResponse  mDiscoverResponse = gson.fromJson(json,SimpleResponse.class);

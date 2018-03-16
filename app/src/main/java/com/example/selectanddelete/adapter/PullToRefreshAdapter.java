@@ -109,7 +109,7 @@ public class PullToRefreshAdapter extends BaseQuickAdapter<ResultListBean, PullT
         }
 
         public void closeItemAnimation() {
-                    checkBox.setVisibility(View.GONE);
+            checkBox.setVisibility(View.GONE);
             relativeLayout.closeAnimation();
 
         }

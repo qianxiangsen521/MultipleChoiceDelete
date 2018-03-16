@@ -6,5 +6,5 @@
 
 效果图
 
-![image](https://github.com/qianxiangsen521/MultipleChoiceDelete/blob/master/gif/MultipleChoiceDelete.gif)
+#![image](https://github.com/qianxiangsen521/MultipleChoiceDelete/blob/master/gif/MultipleChoiceDelete.gif)
 
